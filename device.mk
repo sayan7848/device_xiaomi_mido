@@ -148,7 +148,7 @@ PRODUCT_PACKAGES += \
 
 # Doze mode
 PRODUCT_PACKAGES += \
-    XiaomiDoze
+    CustomDoze
 
 # DRM
 PRODUCT_PACKAGES += \
