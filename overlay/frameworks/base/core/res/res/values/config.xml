@@ -577,4 +577,7 @@
     <!-- Disable AOD by default -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
 
+    <!-- Enable auto brightness by default -->
+    <bool name="def_screen_brightness_automatic_mode">true</bool>
+
 </resources>
