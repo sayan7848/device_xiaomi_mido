@@ -109,7 +109,6 @@ allow priv_app ctl_vendor_qmuxd_prop:file read;
 allow priv_app firstboot_prop:file read;
 allow priv_app mm_parser_prop:file read;
 allow priv_app test_boot_reason_prop:file read;
-allow priv_app theme_prop:file read;
 
 #============= qti_init_shell ==============
 allow qti_init_shell sysfs_devices_system_cpu:dir write;
@@ -196,5 +195,4 @@ allow vold vold_prepare_subdirs:process noatsecure;
 #============= wcnss_service ==============
 allow wcnss_service wifi_prop:property_service set;
 
-#============= webview_zygote ==============
 allow webview_zygote theme_data_file:file { getattr open read };
